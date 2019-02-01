@@ -3,7 +3,7 @@ class SuperHero
     
     @@all = []
     
-  def initialize(args=[])
+  def initialize(args)
     @name = args[:name]
     @power = args[:power]
     @bio = args[:bio]
