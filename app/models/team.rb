@@ -3,9 +3,9 @@ class Team
   
   @@all = []
   
-  def initialize(name, motto)
-    @name = name
-    @motto = motto
+  def initialize(opts={})
+    @name  = opts[:name]
+    @motto = opts[:motto]
   end
   
   def save
