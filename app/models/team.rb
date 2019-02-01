@@ -3,7 +3,7 @@ class Team
   
   @@all = []
   
-  def initialize(args)
+  def initialize(name, motto)
     @name = args[:name]
     @motto = motto[:motto]
   end
